@@ -1,25 +1,40 @@
-.blog{
+.blog-card{
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    border-style: solid;
     border-color: lightblue;
     margin: 5px;
-    text-align: center;
     width: 50%;
 }
 
 .post{
     border-style: solid;
-    border-color: lightblue;
     margin: 5px;
     text-align: center;
     width: 50%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 90%;
 }
 
 .post-title{
 
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+}
 
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list-item{
+
+    margin: 5px;
+}
+header, h2 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
 }
