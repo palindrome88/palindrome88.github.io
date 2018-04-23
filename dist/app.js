@@ -137,13 +137,13 @@ function populateBlog(){
 function populateBlogHeadlines(){
 	for (var i = 0; i < blog.length; i++){ //Insert blog content here
 		element.innerHTML += `
-		<div class="card text-white bg-dark mb-3" id="blog-card" style="max-width: 36 rem; background: rgb(53, 48, 48); margin: auto; display: flex;
+		<div class="card text-white bg-dark mb-3" id="blog-card" style="max-width: 36 rem; background: rgb(233, 210, 122); margin: auto; display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;">
 			<div class="card-header">${blog[i].title}</div>
 			<div class="card-body">
 				<h5 class="card-title">${blog[i].date}</h5>
-				<p class="card-text">${blog[i].content.substring(0,20)}...</p>
+				<p class="card-text">${blog[i].content.substring(0,35)}...</p>
 			</div>
 		</div>
 		`;

@@ -19,11 +19,12 @@ header, h1{
     color: white;
 }
 
-h2{
+h2{     /*About Me, Blog, etc.. */
 
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgb(26, 24, 24);
     text-align: center;
+    opacity: .35;
 }
 /* ================================= 
   Base Layout Styles
@@ -40,12 +41,14 @@ h2{
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-.white-section p{
+.white-section p{ /* about me text*/
 
     color: white;
     letter-spacing: 1.5px;
     font-family: 'Arimo', sans-serif;
     font-size: 25px;
+    line-height: 1.8;
+    opacity: 0.5;
 
 }
 .about-me{
@@ -70,10 +73,10 @@ a:link {
 .nav-list-item{
 
     padding: 10px;
-	background: rgb(53, 48, 48);
+	background: rgb(78, 77, 77);
     border-radius: 5px;
 	margin: 45px auto;
-    box-shadow: 0 1.5px 0 0 rgb(26, 24, 24);
+    box-shadow: 0 1.5px 0 0 rgb(53, 50, 50);
 }
 
 .card .text-white .bg-dark .mb-3{
@@ -97,7 +100,7 @@ a:link {
 }
 
 body{
-    background: linear-gradient(to bottom right, rgb(53, 48, 48), rgb(122, 130, 233));
+    background: linear-gradient(to bottom right, rgb(212, 209, 209), rgb(122, 130, 233));
     margin-right: 10em;
     margin-left: 10em;
 
