@@ -8,10 +8,15 @@ p {
   font-family: 'Poppins', sans-serif;
   line-height: 90%; }
 
-header, h2, h1 {
+header, h1 {
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: white; }
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-align: center; }
 
 /* ================================= 
   Base Layout Styles
@@ -26,6 +31,17 @@ header, h2, h1 {
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
   color: white; }
+
+.white-section p {
+  color: white;
+  letter-spacing: 1.5px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 25px; }
+
+.about-me {
+  float: left;
+  border-radius: 50%;
+  margin: 1em; }
 
 .typed {
   font-family: 'Montserrat', sans-serif;
@@ -117,9 +133,5 @@ header {
 
 .nav-list-item {
   margin: 5px; }
-
-header, h2 {
-  font-family: 'Libre Baskerville', serif;
-  text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
