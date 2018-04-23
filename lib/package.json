@@ -18,5 +18,8 @@
     "grunt-eslint": "^20.1.0",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.0"
   }
 }
