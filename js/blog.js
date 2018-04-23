@@ -135,6 +135,7 @@ function populateBlog(){
 
 function populateBlogHeadlines(){
 	for (var i = 0; i < blog.length; i++){ //Insert blog content here
+	
 		element.innerHTML += `
 		<div class="card text-white bg-dark mb-3" id="blog-card" style="max-width: 36 rem; background: rgb(233, 210, 122); margin: auto; display: flex;
 		flex-direction: row;
