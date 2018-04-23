@@ -1,0 +1,91 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+    
+}
+
+p {
+
+    font-family: 'Poppins', sans-serif;
+    line-height: 90%;
+}
+
+header, h2 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+.main-nav {
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    list-style-type: none;
+}
+
+.nav-list-item{
+
+    padding: 10px;
+	background: #fff;
+    border-radius: 5px;
+	margin: 45px auto;
+    box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+
+
+
+
+.blog-card{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-color: lightblue;
+    margin: 5px;
+    width: 50%;
+}
+
+header{
+
+    font-family: 'Lato', sans-serif;
+}
+
+.post{
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 90%;
+}
+
+.post-title{
+
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+}
+
+.main-nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-list-item{
+
+    margin: 5px;
+}
+header, h2 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}

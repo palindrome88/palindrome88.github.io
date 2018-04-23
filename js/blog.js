@@ -1,3 +1,4 @@
+"use strict";
 var blog = [
 
 	{
@@ -60,7 +61,7 @@ for (var i = 0; i < blog.length; i++){ //Insert blog content here
     </div>`;
 }
 
-
+module.exports = {};
 
 
 
