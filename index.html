@@ -3,43 +3,83 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>My Personal Story!</title>
+    <title>Ryan Brisentine</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
     <style>
             @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
             </style>
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet"> 
-    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
     <div class="wrap">
         <header>
             <h1 class="name">Ryan Brisentine</h1>
+        </br>
+        </br>
+            <div class="sticky-top">
                 <ul class="main-nav">
-                    <a class="nav-list-item"><li>About me</li></a>
-                    <a class="nav-list-item"><li>Resume</li></a>
-                    <a class="nav-list-item"><li>Blog</li></a>
-                    <a class="nav-list-item"><li>Etc </li></a>
+                    <li class="main-nav-item"><a href="Aboutme.html" class="nav-list-item">About me</a></li>
+                    <li class="main-nav-item"><a href="Resume.html" class="nav-list-item">Resume</a></li>
+                    <span>
+                        </span><span></span>
+                    <li class="main-nav-item"><a href="projects.html" class="nav-list-item">Projects</a></li>
+                    <li class="main-nav-item" ><a id="blogclick" href="#" class="nav-list-item">Blog</a></li>
+                   
                 </ul>
+            </div>
+                
         </header>
     </div>
-    <section>
+    
+    <section class="img-class">
+            <div class="card bg-dark text-black">
+                    <img class="card-img" id="presenting" src="images/presentation.png" height="660" width="270" alt="Card image">
+                    <div class="card-img-overlay">
+                    <blockquote class="type-writer" cite="http://classics.mit.edu/Antoninus/meditations.4.four.html">
+                        <p class = "typed">
+                        The universe is transformation: life is opinion.</br>
+                        -Marcus Aurelius
+                        </p> 
+                    </blockquote>
+                    
+                    </div>
+                </div>
+    </section>
+
+</br>
+</br>
+</br>
+</br>
+    <h2>About Me</h2>
+</br>
+</br>
+    <section class="white-section">
+        <img src="images/graduation.png" height="200" width="200" id="my-face"  class="about-me">
         <p> 
-            I began my journey in 2014 at the College of Engineering at Tennessee State University for my degree in Computer Science, graduated in the fall of 2017. The field of tech
-            is so vast, I never realized the viability of a career in User Experience however until I met recruiters from Microsoft looking for people with those skills. From there, my interest became
-            my career pursuit.</p>
-
-            <p>User Experience and Design appeals to me because of the synergy between art and tech. 
-            Currently, I attend Nashville Software School in the UX/UI Developer Bootcamp (really love it), work for the Tennessee Air National Guard as an Imagery Analyst and have served in multiple military services since 2008. I
-            My five year plan is to be an established User Experience professional in the Greater Nashville tech community.
-
+                After years of honorably serving in the US Armed Forces (Active and National Guard), I decided that jumping out of airplanes while exhilarating wasn’t something I wanted to do for the rest of my life. What's funny about it, I came to the conclusion reading from an Army Field manual describing parachute specifications. I noticed the care to detail, the data tables, the diagrams and schemas. I love details, but even more than that, I love the power of details. </br></br>Packing parachutes required endless details, from tensile strength to rigorous attention to procedure, and when accomplished successfully, you saved lives every day. I decided going to college and getting a degree in a technical field was the best path for me, so I could continue to be impactful with the details in a modern technological world. I began my journey in 2014 at the College of Engineering at Tennessee State University for my degree in Computer Science, graduated in the fall of 2017. </br>
+            </br> Now, I’m being impactful in another way. Working with others in developing projects has granted me more opportunities with ever greater responsibilities. I delight in being of value, always seek to improve myself and be an asset wherever I am. Technology and the rate of advancement gives me endless opportunities to challenges. I thrive in rigorous environments — I love to run most days, and traveling abroad whenever I get the chance. In my spare time, I teach myself French.
         </p>
     </section>
+    <h2>Blog</h2>
+</br>
+</br>
+    <section id="blog-id">
+    </section>
     <h2>My work</h2>
+</br>
+</br>
+</br>
+    <h2>Contact</h2>
+</br>
+</br>
+</br>
 
-    </a>
-
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="dist/app.js"></script>
 </body>
 </html>

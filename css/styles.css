@@ -1,0 +1,142 @@
+/* ================================= 
+  Base Styles
+==================================== */
+* {
+  box-sizing: border-box; }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  line-height: 90%; }
+
+header, h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: black; }
+
+h2 {
+  /*About Me, Blog, etc.. */
+  font-family: 'Poppins', sans-serif;
+  color: #1a1818;
+  text-align: center;
+  opacity: .35; }
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+.main-nav {
+  display: flex;
+  height: 50px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  color: white; }
+
+.white-section p {
+  /* about me text*/
+  color: white;
+  letter-spacing: 1.5px;
+  font-family: 'Arimo', sans-serif;
+  font-size: 25px;
+  line-height: 1.8;
+  opacity: 0.5; }
+
+.about-me {
+  float: left;
+  border-radius: 50%;
+  margin: 1em; }
+
+.typed {
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  font-size: 1.8em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  color: #353030; }
+
+a:link {
+  color: white; }
+
+.nav-list-item {
+  padding: 10px;
+  background: #4e4d4d;
+  border-radius: 5px;
+  margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 #353232; }
+
+.card .text-white .bg-dark .mb-3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-color: lightblue;
+  margin: 5px;
+  width: 50%;
+  align-items: center; }
+
+#presenting {
+  -webkit-filter: blur(3px) grayscale(50%);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(5px) grayscale(50%); }
+
+.sticky-top {
+  position: sticky; }
+
+body {
+  background: linear-gradient(to bottom right, #d4d1d1, #7a82e9);
+  margin-right: 10em;
+  margin-left: 10em; }
+
+.type-writer p {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; }
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0; }
+  to {
+    width: 100%; } }
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent; }
+  50% {
+    border-color: orange; } }
+header {
+  font-family: 'Lato', sans-serif; }
+
+.post {
+  border-style: solid;
+  margin: 5px;
+  text-align: center;
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
+  line-height: 90%; }
+
+.post-title {
+  font-family: 'Libre Baskerville', serif;
+  text-align: justify; }
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row; }
+
+.nav-list-item {
+  margin: 5px; }
+
+/*# sourceMappingURL=styles.css.map */
