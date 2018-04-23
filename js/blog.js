@@ -117,7 +117,7 @@ var blog = [
 
 ]; 
 
-let element = document.getElementsByClassName("blog-class")[0]; // Gets position of insertion in "blog" article
+let element = document.getElementById("blog-id"); // Gets position of insertion in "blog" article
 
 function populateBlog(){
 
@@ -135,7 +135,7 @@ function populateBlog(){
 
 function populateBlogHeadlines(){
 	for (var i = 0; i < blog.length; i++){ //Insert blog content here
-	
+		element.innerHTML =" ";
 		element.innerHTML += `
 		<div class="card text-white bg-dark mb-3" id="blog-card" style="max-width: 36 rem; background: rgb(233, 210, 122); margin: auto; display: flex;
 		flex-direction: row;

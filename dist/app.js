@@ -118,7 +118,7 @@ var blog = [
 
 ]; 
 
-let element = document.getElementsByClassName("blog-class")[0]; // Gets position of insertion in "blog" article
+let element = document.getElementById("blog-id"); // Gets position of insertion in "blog" article
 
 function populateBlog(){
 
@@ -136,7 +136,7 @@ function populateBlog(){
 
 function populateBlogHeadlines(){
 	for (var i = 0; i < blog.length; i++){ //Insert blog content here
-	
+		element.innerHTML =" ";
 		element.innerHTML += `
 		<div class="card text-white bg-dark mb-3" id="blog-card" style="max-width: 36 rem; background: rgb(233, 210, 122); margin: auto; display: flex;
 		flex-direction: row;
@@ -162,9 +162,31 @@ module.exports = {populateBlog, populateBlogHeadlines};
 let blogScript = require("./blog");
 let $ = require("jquery");
 
-let clickedBlogLink = $("#blog-click").click(function(){
+let clickedBlogLink = $('#blogclick').click(function(){
+
     blogScript.populateBlog();
-});
+
+    console.log("Registered the button click.");
+    // Make sure this.hash has a value before overriding default behavior
+    // if (this.hash !== "") {
+    //     // Prevent default anchor click behavior
+    //     event.preventDefault();
+  
+    //     // Store hash
+    //     var hash = this.hash;
+  
+    //     // Using jQuery's animate() method to add smooth page scroll
+    //     // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    //     $('html, body').animate({
+    //       scrollTop: $(hash).offset().top
+    //     }, 800, function(){
+     
+    //       // Add hash (#) to URL when done scrolling (default click behavior)
+    //       window.location.hash = hash;
+    //     });
+    //   } // End if
+    });
+
 
 blogScript.populateBlogHeadlines();
 },{"./blog":1,"jquery":3}],3:[function(require,module,exports){
