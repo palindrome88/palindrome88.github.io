@@ -5,7 +5,8 @@
   box-sizing: border-box; }
 
 p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Arimo', sans-serif;
+  font-size: 35px;
   line-height: 90%; }
 
 header, h1 {
@@ -15,11 +16,31 @@ header, h1 {
 
 h2 {
   /*About Me, Blog, etc.. */
-  font-family: 'Poppins', sans-serif;
-  color: #1a1818;
+  font-family: 'Nanum Gothic Coding', monospace;
   text-align: center;
-  opacity: .35; }
+  color: black; 
+  text-align: center;
+  opacity: .35;
+  font-size: 60px;
+ }
 
+  h3 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    font-size: 50px;
+    text-align: center;
+    color: black; 
+    opacity: .35;
+
+
+  }
+
+  h4{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    font-size: 40px;
+    text-align: center;
+  }
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -97,6 +118,16 @@ a:link {
 .wireframe{
   transform: rotate(90deg); /* Equal to rotateZ(45deg) */
   
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:  blue;
+  border-width: 1.5px;
 }
 .sticky-top {
   position: sticky; }
