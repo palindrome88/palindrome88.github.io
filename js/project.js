@@ -1,5 +1,5 @@
 "use strict";
-var blog = [
+var projects = [
 
 	{
 		title : "Week One", 
@@ -117,40 +117,40 @@ var blog = [
 
 ]; 
 
-let element = document.getElementById("blog-id"); // Gets position of insertion in "blog" article
+let element = document.getElementById("project-id"); 
 
-function populateBlog(){
+// function populateBlog(){
 
-	for (var i = 0; i < blog.length; i++){ //Insert blog content here
-		element.innerHTML += `<div class="blog-card">
-		<div class="post-title">
-		${blog[i].title}
-		</div>`;
-		element.innerHTML += `<div class="post">
-		${blog[i].content}
-		</div> 
-		</div>`;
-	}
-}
+// 	for (var i = 0; i < projects.length; i++){ //Insert blog content here
+// 		element.innerHTML += `<div class="blog-card">
+// 		<div class="post-title">
+// 		${projects[i].title}
+// 		</div>`;
+// 		element.innerHTML += `<div class="post">
+// 		${projects[i].content}
+// 		</div> 
+// 		</div>`;
+// 	}
+// }
 
-function populateBlogHeadlines(){
-	for (var i = 0; i < blog.length; i++){ //Insert blog content here
+function populateProjects(){
+	for (var i = 0; i < projects.length; i++){ //Insert blog content here
 		element.innerHTML =" ";
 		element.innerHTML += `
 		<div class="card text-white bg-dark mb-3" id="blog-card" style="max-width: 36 rem; background: rgb(233, 210, 122); margin: auto; display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;">
-			<div class="card-header">${blog[i].title}</div>
+			<div class="card-header">${projects[i].title}</div>
 			<div class="card-body">
-				<h5 class="card-title">${blog[i].date}</h5>
-				<p class="card-text">${blog[i].content.substring(0,35)}...</p>
+				<h5 class="card-title">${projects[i].date}</h5>
+				<p class="card-text">${projects[i].content.substring(0,35)}...</p>
 			</div>
 		</div>
 		`;
 	}
 
 }
-module.exports = {populateBlog, populateBlogHeadlines};
+module.exports = {populateBlog, populateProjects};
 
 
 

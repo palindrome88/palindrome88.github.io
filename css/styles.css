@@ -32,11 +32,11 @@ h2 {
   flex-wrap: nowrap;
   list-style-type: none;
   font-family: 'Montserrat', sans-serif;
-  color: white; }
+  color: black; }
 
 .white-section p {
   /* about me text*/
-  color: white;
+  color: black;
   letter-spacing: 1.5px;
   font-family: 'Arimo', sans-serif;
   font-size: 25px;
@@ -59,14 +59,14 @@ h2 {
   color: #353030; }
 
 a:link {
-  color: white; }
+  color: black; }
 
 .nav-list-item {
   padding: 10px;
-  background: #4e4d4d;
+  background: black;
   border-radius: 5px;
   margin: 45px auto;
-  box-shadow: 0 1.5px 0 0 #353232; }
+  box-shadow: 0 1.5px 0 0 black; }
 
 .card .text-white .bg-dark .mb-3 {
   display: flex;
@@ -87,7 +87,7 @@ a:link {
   position: sticky; }
 
 body {
-  background: linear-gradient(to bottom right, #d4d1d1, #7a82e9);
+  background: linear-gradient(to bottom right, #d4d1d1, white);
   margin-right: 10em;
   margin-left: 10em; }
 
@@ -134,7 +134,14 @@ header {
 .main-nav {
   list-style-type: none;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row; 
+  margin: auto;
+}
+
+.main-nav-item {
+  color: white;
+
+}
 
 .nav-list-item {
   margin: 5px; }
