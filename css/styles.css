@@ -6,8 +6,9 @@
 
 p {
   font-family: 'Arimo', sans-serif;
-  font-size: 35px;
-  line-height: 90%; }
+  font-size: 32px;
+  
+  line-height: 1.6; }
 
 header, h1 {
   font-family: 'Montserrat', sans-serif;
@@ -24,6 +25,15 @@ h2 {
   font-size: 60px;
  }
 
+title{
+font-family: 'Nanum Gothic Coding', monospace;
+  text-align: center;
+  color: black; 
+  text-align: center;
+  opacity: .35;
+  font-size: 70px;
+
+}
   h3 {
     font-family: 'Nanum Gothic Coding', monospace;
     text-align: center;
@@ -40,6 +50,14 @@ h2 {
     text-align: center;
     font-size: 40px;
     text-align: center;
+  }
+
+  h5{
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    font-size: 35px;
+    text-align: center;
+
   }
 /* ================================= 
   Base Layout Styles
